@@ -1,4 +1,7 @@
 package library;
 
-public class DuplicateBookException {
+public class DuplicateBookException extends Exception{
+    public DuplicateBookException (String message){
+        super(message);
+    }
 }
