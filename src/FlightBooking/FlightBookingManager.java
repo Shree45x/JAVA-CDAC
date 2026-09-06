@@ -23,7 +23,7 @@ public class FlightBookingManager {
                     S.seatbooking();
                     break;
                 case 2:
-                    //S.cancelseat(); // Fixed to trigger cancellation method
+                    S.cancelBooking(); //  trigger cancellation method
                     break;
                 case 3:
                     S.displayAllbokingseat();
